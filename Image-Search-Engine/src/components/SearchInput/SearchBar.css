@@ -1,0 +1,41 @@
+ .ui.segment {
+    border: none;
+    box-shadow: none;
+  }
+  
+  .ui.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ui.massive.icon.input {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .ui.massive.icon.input input {
+    width: 100%;
+    padding: 15px 60px 15px 20px;
+    border-radius: 50px;
+    font-size: 24px;
+    border: 2px solid #ccc;
+    outline: none;
+  }
+  
+  .ui.massive.icon.input .search {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .ui.massive.icon.input input:focus + .search {
+    color: #000;
+  }
+  

@@ -1,0 +1,55 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&family=Montserrat&display=swap");
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-weight: 400;
+  line-height: inherit;
+  color: var(--textColor);
+  position: relative;
+  background-color: #e4f88b;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+  /* Hide scrollbar */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+/* Hide scrollbar for WebKit browsers */
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+/* Hide scrollbar for Internet Explorer and Edge */
+body::-ms-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+}
